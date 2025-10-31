@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "remove containers",
+            "type": "shell",
+            "command": "docker rm -f $(docker ps -a -q)",
+            "problemMatcher": []
+        },
+        {
+            "label": "run hy_matching",
+            "type": "shell",
+            "command": "docker run --privileged -v ${workspaceFolder}/config/db_conf.ini:/usr/local/src/hy_matching/config/db_conf.ini ome2_matching ome2_hy_matching --c /usr/local/src/hy_matching/config/epg_parameters.ini --cc be#fr --sp 350",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+[submodule "area_matching"]
+	path = hy_matching
+	url = https://github.com/openmapsforeurope2/area_matching.git
+	branch = main
+[submodule "net_matching"]
+	path = tn_matching
+	url = https://github.com/openmapsforeurope2/net_matching.git
+	branch = main
+[submodule "au_matching"]
+	path = au_matching
+	url = https://github.com/openmapsforeurope2/au_matching.git
+	branch = main
+[submodule "au_merging"]
+	path = au_merging
+	url = https://github.com/openmapsforeurope2/au_merging.git
+	branch = main
