@@ -1,1 +1,2 @@
-config/db_conf.ini
+config/db_conf*
+!config/db_conf.ini.template
